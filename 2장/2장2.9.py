@@ -8,4 +8,3 @@ def hanoi_tower(n,fr,tmp,to):
         hanoi_tower(n-1,tmp,fr,to)
 
 hanoi_tower(4,'A','B','C')
-        
